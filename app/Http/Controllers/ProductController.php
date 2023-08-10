@@ -49,7 +49,6 @@ class ProductController extends Controller
             ],
             [
                 'up_name.required' => 'Please fill up Name field',
-                // 'up_name.unique' => 'Name already taken',
                 'up_price.required' => 'Please Fill up price Filed',
             ]);
 
